@@ -1,0 +1,156 @@
+#AdminContiner{
+    width: 100%;
+    height: 100vh;
+    background-color: #c1d8ef;
+}
+#Drower{
+    width: 17%;
+    height: 100vh;
+    float: left;
+    background-color: #3576b7;
+
+}#apper{
+    width: 90%;
+    color: #fff;
+    height: 50px;
+    margin-top: 15px;
+    background-color: #3576b7;
+    display: flex;
+    padding: 0  15px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 30px;
+}#admin_page{
+    width: 80%;
+    height: 100vh;
+    float: right;
+}#adminServies{
+    width: 95%;
+    height: 75vh;
+    margin-top: 20px;
+    background-color: #fff;
+}
+span{
+    color: #111;
+}
+
+
+/* Drower */
+#Drower h1{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-weight:800;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.btnAdmin{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    font-size: 18px;
+    color: white;
+    border: none;
+    transition: .2s;
+}
+.titelServies{
+    margin-left: 10px;
+    color: #ffffffb9;
+}.line{
+    margin-left: 10px;
+    width: 80%;
+}.btnAdmin:hover{
+    background-color: #113b65; 
+    cursor: pointer;
+
+}
+#btnApper{
+    border: none;
+    background-color: transparent;
+    transition: .3s;
+}
+#btnApper:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+#table_user{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+#table_user thead{
+    font-size: 25px;
+    font-weight: 800;
+    background-color: #024589;
+    color: #fff;
+}
+#table_user thead tr td{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.data_users td{
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 800;
+    font-family:   'Lucida Sans', Arial, sans-serif;
+}
+.data_users{
+    background-color: #419df855;
+}
+table{margin: 0;
+border-spacing:0 ;
+}
+#divAdd_hotel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input_Add_hotel{
+    display: block;
+    margin: 15px 0;
+    width: 600px;
+    padding: 11px;
+    background-color: #44444453;
+    border: none;
+    border-radius: 20px;
+    font-size: 17px;
+    color: #024589;
+}#btn_add_hotel{
+    padding: 5px;
+    width: 180px;
+    background-color: #024589;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    transition: .5s;
+}#btn_add_hotel:hover{
+    background-color: #001325;
+    cursor: pointer;
+}
+#DivUpdata{
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    transition: .5s;
+    transform: scale(0);
+}
+#btn_close{
+    background-color: red;
+    border: none;
+    margin:2px 0;
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bolder;
+}
